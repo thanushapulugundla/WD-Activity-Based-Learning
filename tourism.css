@@ -1,0 +1,291 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #243b32;
+    background-color: #f8f6ef;
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.site-header {
+    background-color: white;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #245744;
+}
+
+.logo span {
+    color: #d99b52;
+}
+
+nav a {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #d99b52;
+}
+
+.header-button, .button {
+    background-color: #245744;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.travel-hero {
+    margin: 20px;
+    padding: 70px 8%;
+    color: white;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #183d32, transparent), url("https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=1600&q=85");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.eyebrow {
+    color: #c18b4d;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 54px;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 34px;
+    line-height: 1.2;
+}
+
+em {
+    color: #d99b52;
+}
+
+.travel-hero em {
+    color: #ffd59b;
+}
+
+.hero-copy, .intro-copy {
+    max-width: 500px;
+}
+
+.button-light {
+    background-color: white;
+    color: #245744;
+}
+
+.hero-note {
+    margin-top: 20px;
+}
+
+.hero-stamp {
+    display: none;
+}
+
+.section {
+    padding: 45px 7%;
+}
+
+.intro-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.text-link {
+    color: #245744;
+    font-weight: bold;
+}
+
+.destination-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.destination-card {
+    color: white;
+    height: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+}
+
+.bali {
+    background-image: linear-gradient(to top, #0009, #0001), url("https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80");
+}
+
+.swiss {
+    background-image: linear-gradient(to top, #0009, #0001), url("https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=800&q=80");
+}
+
+.amalfi {
+    background-image: linear-gradient(to top, #0009, #0001), url("https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=80");
+}
+
+.destination-info h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.destination-info p {
+    margin-bottom: 0;
+}
+
+.package-band {
+    background-color: #e8eee5;
+    padding: 50px 7%;
+    display: flex;
+    gap: 40px;
+}
+
+.package-band > div {
+    flex: 1;
+}
+
+.package-list article {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #cbd8ca;
+}
+
+.package-list h3, .package-list p {
+    margin: 3px 0;
+}
+
+.package-list article strong {
+    margin-left: auto;
+    white-space: nowrap;
+}
+
+.package-number {
+    color: #b87c3e;
+    font-weight: bold;
+}
+
+.contact-section {
+    display: flex;
+    gap: 40px;
+    padding: 50px 7%;
+}
+
+.contact-section > div, .trip-form {
+    flex: 1;
+}
+
+.trip-form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px #20352d18;
+}
+
+label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cdd7ce;
+    border-radius: 5px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.form-pair {
+    display: flex;
+    gap: 12px;
+}
+
+.form-pair div {
+    flex: 1;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.button-dark {
+    margin-top: 18px;
+    width: 100%;
+}
+
+.trip-form small {
+    display: block;
+    margin-top: 12px;
+    color: #66736b;
+}
+
+footer {
+    background-color: #203e32;
+    color: white;
+    padding: 25px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Make the page fit smaller screens */
+@media (max-width: 750px) {
+    .site-header, .intro-row, .package-band, .contact-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .destination-grid {
+        flex-direction: column;
+    }
+
+    .section-heading, footer {
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
